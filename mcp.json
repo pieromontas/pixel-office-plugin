@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "pixel-office": {
+      "url": "${PIXEL_OFFICE_URL}/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${PIXEL_OFFICE_INGEST_TOKEN}"
+      }
+    }
+  }
+}
+
+

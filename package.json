@@ -1,0 +1,13 @@
+{
+  "name": "pixel-office-plugin",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Cursor plugin that shows Grok Bot or Cursor as an NPC in Pixel Office",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  }
+}
+
+
