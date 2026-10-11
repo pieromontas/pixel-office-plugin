@@ -1,13 +1,13 @@
 {
   "name": "pixel-office",
   "displayName": "Pixel Office",
-  "version": "1.1.0",
-  "description": "Show your Grok Bot or Cursor agent as an NPC in a Pixel Office. Reports only a status, a folder name, and a conversation id to the office's remote MCP server.",
+  "version": "1.2.0",
+  "description": "Show your Grok Bot or Cursor agent as an NPC in a Pixel Office. Reports only a status and optional folder name to the office's remote MCP server.",
   "author": {
     "name": "Piero Montas"
   },
-  "homepage": "https://github.com/pieromontas/pixel-office-plugin",
-  "repository": "https://github.com/pieromontas/pixel-office-plugin",
+  "homepage": "https://github.com/pieromontas/PixelOfficeShared/tree/main/plugins/grok-bot-pixel-office",
+  "repository": "https://github.com/pieromontas/PixelOfficeShared",
   "license": "MIT",
   "keywords": ["pixel-office", "grok-bot", "mcp", "npc", "presence"],
   "logo": "assets/logo.svg",
@@ -18,7 +18,7 @@
       "PIXEL_OFFICE_URL": {
         "type": "string",
         "title": "Pixel Office URL",
-        "description": "Your office address with no trailing slash. Copy it from Set up your agent > Grok Bot (cloud).",
+        "description": "Your office's address with no trailing slash, as shown on Set up your agent > Grok Bot (cloud).",
         "minLength": 8
       },
       "PIXEL_OFFICE_INGEST_TOKEN": {
